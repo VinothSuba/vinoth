@@ -30,6 +30,12 @@ Creating feature branches which is not affecting any remote branches
  $ git branch branch-name revision-id
  - Switch to local branch
  $ git switch branch-name
+ - Add file changes
+ $ git add .
+ - Commit files changes localy
+ $ git commit -m "Messages"
+ - Publish the local branch changes into remote
+ $ git push -u origin branch-name
  
 
 
